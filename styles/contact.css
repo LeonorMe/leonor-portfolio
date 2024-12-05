@@ -1,7 +1,12 @@
 .contact__form {
+    /*
     display: grid;
     grid-template-columns: 1fr;
     max-width: 30rem;
+    gap: 1rem;
+    */
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -22,5 +27,18 @@ textarea {
 }
 
 .contact__input-group input {
+    width: 60%;
     padding: .35rem;
+}
+
+.contact__form button {
+    width: 20%;
+    padding: .35rem;
+}
+
+.contact__form button, input, textarea {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 8 8 5 #000000 inset;
 }
