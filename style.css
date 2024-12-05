@@ -1,1 +1,7 @@
 @import url("styles/fonts.css");
+@import url("styles/contact.css");
+
+body {
+    margin: 0;
+    padding: 5vh 10vw;
+}

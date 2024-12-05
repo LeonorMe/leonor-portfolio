@@ -1,0 +1,26 @@
+.contact__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 30rem;
+    gap: 1rem;
+}
+
+.contact__form-message {
+    grid-column: 1 / span 2;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    min-height: 10rem;
+}
+
+.contact__input-group {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.contact__input-group input {
+    padding: .35rem;
+}

@@ -10,6 +10,31 @@
 <body>
     <h1>Contact me</h1>
     
+    <form class="contact__form" action="success" method="post" netlify name="Contact Form">
+        <div class="contact__input-group">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="contact__input-group">
+            <label for="email">Email*</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <div class="contact__input-group">
+            <label for="subject">Subject*</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="contact__input-group contact__form-message">
+            <label for="message">Message*</label>
+            <textarea type="text" id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    
     <script src="index.js"></script>
 </body>
 </html>
