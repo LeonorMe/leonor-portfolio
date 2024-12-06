@@ -1,0 +1,31 @@
+:root {
+    /* ligth theme */
+    --l-c1: #FAF6F6;
+    --l-c2: #449F5A;
+    --l-c3: #2A803C;
+    --l-c4: #53B1B1;
+    --l-c5: #073C22;
+    --l-c6: #181916;
+    --l-c7: #FAB71C;
+    --l-c8: #64134d37;
+
+    /* dark theme */
+    --d-c1: #E7EEDA;
+    --d-c2: #72923D;
+    --d-c3: #587637;
+    --d-c4: #073C22;
+    --d-c5: #181916;
+    --d-c6: #070707;
+    --d-c7: #E2513D;
+    --d-c8: #18191630;
+
+    /* defenitions */
+    --white: var(--d-c1);
+    --nenufar-small: var(--d-c2);
+    --nenufar-big: var(--d-c3);
+    --lake-color: var(--d-c4);
+    --background-color: var(--d-c5);
+    --black: var(--d-c6);
+    --detail-color: var(--d-c7);
+    --shadow: var(--d-c8);
+}

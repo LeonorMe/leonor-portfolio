@@ -1,19 +1,13 @@
-@import url("styles/fonts.css");
+@import url("styles/colors.css");
 @import url("styles/contact.css");
-
-:root {
-    /* ligth theme */
-    --l-c1 : #fff;
-
-    /* dark theme */
-    --d-c1 : #000;
-
-    /* defenitions */
-    --background-color: var(--d-c1);
-}
+@import url("styles/fonts.css");
 
 body {
+    /*
     margin: 0;
     padding: 5vh 10vw;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    */
 }
 
