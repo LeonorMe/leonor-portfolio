@@ -2,9 +2,18 @@
 @import url("styles/contact.css");
 @import url("styles/fixed.css");
 @import url("styles/fonts.css");
+@import url("styles/z-index.css");
+@import url("styles/sucess.css");
 
 body {
     background-color: var(--background);
     color: var(--white);
 }
 
+a {
+    color: var(--white);
+}
+
+a:hover {
+    text-decoration: line-through;
+}

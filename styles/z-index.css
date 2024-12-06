@@ -1,0 +1,51 @@
+/* cursor animation: z-index:14;*/
+
+.text, h1, h2, h3, h4, h5, h6, p, a {
+    position: relative;
+    z-index: 12;
+}
+
+.btn, .color-mode {
+    z-index: 10;
+}
+
+.wooden-walkway {
+    z-index: 9;
+}
+
+.flower {
+    z-index: 8;
+}
+
+.top-nenufar {
+    z-index: 6;
+}
+
+.mid-nenufar {
+    z-index: 4;
+}
+
+.bot-nenufar {
+    z-index: 2;
+}
+
+.wave {
+    z-index: 1;
+}
+
+.top-water {
+    z-index: 0;
+    opacity: 25%;
+}
+
+.fish {
+    z-index: -1;
+}
+
+.bot-water {
+    z-index: -2;
+}
+
+.background {
+    z-index: -3;
+}

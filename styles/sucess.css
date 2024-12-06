@@ -1,0 +1,27 @@
+.sucess__text {
+    position: fixed;
+    margin: 37vh 27vw;
+    padding: 3vh 3vw;
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px 0px;
+    background-color: var(--shadow);
+    border-radius: 10px;
+}
+
+.sucess__text h1 {
+    font-family: "Crimson Text", serif;
+    font-size: 3em;
+}
+
+.sucess__text p {
+    font-family: "Inter", sans-serif;
+}
+
+.sucess__text a {
+    font-family: "Inter", sans-serif;
+}
+
