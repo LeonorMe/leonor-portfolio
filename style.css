@@ -1,13 +1,10 @@
 @import url("styles/colors.css");
 @import url("styles/contact.css");
+@import url("styles/fixed.css");
 @import url("styles/fonts.css");
 
 body {
-    /*
-    margin: 0;
-    padding: 5vh 10vw;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    */
+    background-color: var(--background);
+    color: var(--white);
 }
 

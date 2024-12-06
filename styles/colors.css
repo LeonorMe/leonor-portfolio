@@ -23,9 +23,9 @@
     --white: var(--d-c1);
     --nenufar-small: var(--d-c2);
     --nenufar-big: var(--d-c3);
-    --lake-color: var(--d-c4);
-    --background-color: var(--d-c5);
+    --lake: var(--d-c4);
+    --background: var(--d-c5);
     --black: var(--d-c6);
-    --detail-color: var(--d-c7);
+    --detail: var(--d-c7);
     --shadow: var(--d-c8);
 }
