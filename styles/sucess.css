@@ -25,3 +25,7 @@
     font-family: "Inter", sans-serif;
 }
 
+.water-color {
+    fill:var(--lake);
+}
+
