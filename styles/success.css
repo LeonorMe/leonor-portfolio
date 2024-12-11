@@ -1,4 +1,4 @@
-.sucess__text {
+.success__text {
     position: fixed;
     margin: 37vh 27vw;
     padding: 3vh 3vw;
@@ -12,16 +12,20 @@
     border-radius: 10px;
 }
 
-.sucess__text h1 {
+.success__text h1 {
     font-family: "Crimson Text", serif;
     font-size: 3em;
 }
 
-.sucess__text p {
+.success__text p {
     font-family: "Inter", sans-serif;
 }
 
-.sucess__text a {
+.success__text a {
     font-family: "Inter", sans-serif;
 }
 
+.success .water {
+    position: relative;
+    top: -15vh;
+}

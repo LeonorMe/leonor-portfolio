@@ -7,10 +7,6 @@
     background-size:cover;
 }
 
-.index__body-l {
-    background-image: url("/assets/water-l.svg");
-}
-
 .index__container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

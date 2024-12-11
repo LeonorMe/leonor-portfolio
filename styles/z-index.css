@@ -42,7 +42,7 @@
     z-index: -1;
 }
 
-.bot-water {
+.bot-water, .water {
     z-index: -2;
 }
 
