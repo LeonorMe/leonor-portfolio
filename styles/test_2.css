@@ -1,0 +1,45 @@
+/*
+header {
+    background-color: rgb(205, 171, 128);
+    position: relative;
+    top: 45vh;
+    left: 10vw;
+}
+
+header .title {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+header .profile-img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 75px;
+    top: 0%;
+    left: 0%;
+    background-image: url("/assets/leonor-profile.png");
+}
+header .profile-img:hover {
+    background-color: aqua;
+}
+
+header .top-nenufar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+header .bot-nenufar {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+
+nav{
+    display: flex;
+}
+*/

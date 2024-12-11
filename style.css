@@ -4,10 +4,14 @@
 @import url("styles/fonts.css");
 @import url("styles/z-index.css");
 @import url("styles/sucess.css");
+@import url("styles/index.css");
+
+@import url("styles/test.css");
 
 body {
     background-color: var(--background);
     color: var(--white);
+    padding: 5vh 20vw;
 }
 
 a {
@@ -17,3 +21,41 @@ a {
 a:hover {
     text-decoration: line-through;
 }
+
+/*
+h1 {
+    font-size: 2em;
+}
+
+
+.nenufar-group {
+    display:flex;
+}
+
+
+.nenufar-group{
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+.nenufar-group h1 {
+    position: relative;
+    top: 70px;
+    left: 60px;
+    word-wrap: normal;
+    max-width: 100px;
+}
+
+.nenufar-group .nenufar-big {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.nenufar-group .nenufar-small {
+    position: relative;
+    top: -200px;
+    left: 400px;
+}
+*/

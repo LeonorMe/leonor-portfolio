@@ -29,3 +29,15 @@
     --detail: var(--d-c7);
     --shadow: var(--d-c8);
 }
+
+.water-color {
+    fill: var(--lake);
+}
+
+.nenufar-big {
+    fill: var(--nenufar-big);
+}
+
+.nenufar-small {
+    fill: var(--nenufar-small);
+}
