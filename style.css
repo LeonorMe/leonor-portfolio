@@ -22,6 +22,21 @@ a:hover {
     text-decoration: line-through;
 }
 
+.ripple {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    position: fixed;
+    border-radius: 50%;
+    border: 0.5px solid #d2ecd8db;
+}
+@keyframes ripple-effect {
+    to {
+        transform: scale(15);
+        opacity: 0.01;
+    }
+}
+
 /*
 h1 {
     font-size: 2em;
