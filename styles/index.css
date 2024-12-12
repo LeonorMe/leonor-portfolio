@@ -1,10 +1,13 @@
-.index__body {
+.index {
     background-color: var(--background);
     padding: 15vh 10vw;
-    background-image: url("/assets/water.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size:cover;
+}
+
+.index .water {
+    position: absolute;
 }
 
 .index__container {
@@ -38,10 +41,8 @@
     background-image: url("/assets/footer-EN-en.svg");
 }
 
-.index__main {
-    background-image: url("/assets/no-shadow/main-d-en.svg");
-    position: relative;
-    top: -20%
+.index .main {
+    transform: scale(1);
 }
 
 .index__contact {

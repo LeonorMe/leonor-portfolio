@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .group-main {
+            border: 1px blue solid;
+            position: relative;
+            height: 300px;
+            width: 400px;
+        }
+
+        .group-main div {
+            position: absolute;
+        }
+
+        .group-main .flower {
+            left: 35%;
+        }
+
+        .group-main .nenufar-small {
+            transform: scale(1.5) rotate(200deg);
+            top: 30%;
+            left: 5%;
+        }
+
+        .group-main .nenufar-big {
+            transform: scale(1.5) rotate(35deg);
+            bottom: 10%;
+            right: 10%;
+        }
+
+    </style>
 </head>
 <body>
     
@@ -11,7 +41,15 @@
 
     <div class="fish-blur">fish</div>
     
+    <div class="main">Main</div>
     
+    <div class="group-main">
+        <div class="fish"></div>
+        <div class="flower"></div>
+        <div class="nenufar-big"></div>
+        <div class="nenufar-small"></div>
+    </div>
+
     <script src="/svgOjects.js"></script>
     <script src="/svgLoadObjects.js">
     </script>
