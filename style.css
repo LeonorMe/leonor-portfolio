@@ -5,6 +5,7 @@
 @import url("styles/z-index.css");
 @import url("styles/success.css");
 @import url("styles/index.css");
+@import url("styles/groups.css");
 
 @import url("styles/test_1.css");
 
@@ -12,10 +13,20 @@ body {
     background-color: var(--background);
     color: var(--white);
     padding: 5vh 20vw;
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a {
     color: var(--white);
+    font-family: "Solitreo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a:hover {

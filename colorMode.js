@@ -17,6 +17,10 @@ colorMode.addEventListener('click', () => {
         r.style.setProperty("--black", "var(--l-c6)");
         r.style.setProperty("--detail", "var(--l-c7)");
         r.style.setProperty("--shadow", "var(--l-c8)");
+
+        for(let i=1; i<=5; i++){
+            r.style.setProperty("--petal"+i, "var(--l-f"+i+")");
+        }
     }
     else{
         colorMode.classList = 'color-mode';
@@ -30,5 +34,10 @@ colorMode.addEventListener('click', () => {
         r.style.setProperty("--black", "var(--d-c6)");
         r.style.setProperty("--detail", "var(--d-c7)");
         r.style.setProperty("--shadow", "var(--d-c8)");
+
+        for (let i = 1; i <= 5; i++) {
+            r.style.setProperty("--petal"+i, "var(--d-f"+i+")");
+        }
     }
+    console.log(r.style.getPropertyValue("--petal1"));
 })

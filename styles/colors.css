@@ -28,6 +28,25 @@
     --black: var(--d-c6);
     --detail: var(--d-c7);
     --shadow: var(--d-c8);
+
+    /*flower*/
+    --l-f1: #D69590;
+    --l-f2: #EEBBB7;
+    --l-f3: #EFD7D5;
+    --l-f4: #FBFFFB;
+    --l-f5: #FFF4F0;
+
+    --d-f1: #CCE66F;
+    --d-f2: #D7ECBE;
+    --d-f3: #FBF3E6;
+    --d-f4: #FBFFFB;
+    --d-f5: #F2F38D;
+
+    --petal1: var(--d-f1);
+    --petal2: var(--d-f2);
+    --petal3: var(--d-f3);
+    --petal4: var(--d-f4);
+    --petal5: var(--d-f5);
 }
 
 .water-color {

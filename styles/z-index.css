@@ -5,7 +5,7 @@
     z-index: 12;
 }
 
-.btn, .color-mode {
+.btn, .color-mode, .EN-en, .PT-pt {
     z-index: 10;
 }
 
@@ -15,6 +15,10 @@
 
 .flower {
     z-index: 8;
+}
+
+.profile {
+    z-index: 7;
 }
 
 .top-nenufar, .nenufar-small {

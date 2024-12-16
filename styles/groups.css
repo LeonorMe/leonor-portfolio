@@ -1,0 +1,86 @@
+/* MAIN */
+.group-main {
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+.group-main div {
+    position: absolute;
+}
+.group-main .flower {
+    transform: rotate(-35deg);
+    left: 35%;
+}
+.group-main .profile {
+    top: 10%;
+    left: 14%;
+}
+.group-main .nenufar-small {
+    transform: scale(1.3) rotate(200deg);
+    top: 35%;
+    left: 9%;
+}
+.group-main .nenufar-big {
+    transform: scale(1.5) rotate(25deg);
+    bottom: 8%;
+    right: 20%;
+}
+.group-main h1 {
+    top: 39%;
+    left: 18%;
+    text-align: center;
+}
+.group-main h2 {
+    top: 40%;
+    left: 18%;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.group-footer {
+    position: relative;
+    height: 200px;
+    width: 250px;
+}
+
+.group-footer div {
+    position: absolute;
+}
+
+.group-footer .base {
+    transform: scale(-0.8) rotate(40deg);
+    top: 30%;
+    left: 40%;
+}
+
+.group-footer .en {
+    transform: scale(1.2) rotate(-20deg);
+    top: 8%;
+    left: 35%;
+}
+
+.group-footer .pt {
+    transform: scaleX(-0.7) scaleY(0.7) rotate(-145deg);
+    top: 17%;
+    left: -5%;
+}
+
+.group-footer .EN-en {
+    top: 25%;
+    left: 45%;
+}
+
+.group-footer .PT-pt {
+    top: 53%;
+    left: 20%;
+}
+
+.group-footer p {
+    font-family: "Solitreo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    top: 58%;
+    left: 20%;
+}

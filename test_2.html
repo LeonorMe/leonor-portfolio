@@ -6,52 +6,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .group-main {
-            border: 1px blue solid;
-            position: relative;
-            height: 300px;
-            width: 400px;
-        }
-
-        .group-main div {
-            position: absolute;
-        }
-
-        .group-main .flower {
-            left: 35%;
-        }
-
-        .group-main .nenufar-small {
-            transform: scale(1.5) rotate(200deg);
-            top: 30%;
-            left: 5%;
-        }
-
-        .group-main .nenufar-big {
-            transform: scale(1.5) rotate(35deg);
-            bottom: 10%;
-            right: 10%;
-        }
-
+        
     </style>
 </head>
 <body>
-    
-    <img src="assets/fish.svg" alt="" srcset="">
+    <div class="fish">fish</div>
 
-    <div class="fish-blur">fish</div>
-    
-    <div class="main">Main</div>
-    
     <div class="group-main">
-        <div class="fish"></div>
         <div class="flower"></div>
+        <div class="profile"></div>
         <div class="nenufar-big"></div>
         <div class="nenufar-small"></div>
+        <h1>Leonor <br> Medeiros</h1>
+        <h2>Portfolio</h2>
+    </div>
+    
+    <div class="group-footer">
+        <div class="nenufar-big base"></div>
+        <div class="nenufar-big pt"></div>
+        <div class="nenufar-small en"></div>
+        <div class="EN-en"></div>
+        <div class="PT-pt"></div>
+        <p>@LM <br> dec 2024</p>
     </div>
 
+    <!-- ### -->
+
+    <button class="color-mode">
+        <div class="color-mode-ball"></div>
+    </button>
+
+    <script src="/colorMode.js"></script>
+        
     <script src="/svgOjects.js"></script>
-    <script src="/svgLoadObjects.js">
-    </script>
+    <script src="/svgLoadObjects.js"></script>
+    
+    <script src="/waterAnimation.js"></script>
+    
 </body>
 </html>
