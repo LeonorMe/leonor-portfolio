@@ -26,12 +26,12 @@
     right: 20%;
 }
 .group-main h1 {
-    top: 39%;
+    top: 42%;
     left: 18%;
     text-align: center;
 }
-.group-main h2 {
-    top: 40%;
+.group-main .subtitle {
+    top: 50%;
     left: 18%;
     text-align: center;
 }
@@ -43,44 +43,98 @@
     height: 200px;
     width: 250px;
 }
-
 .group-footer div {
     position: absolute;
 }
-
 .group-footer .base {
     transform: scale(-0.8) rotate(40deg);
     top: 30%;
     left: 40%;
 }
-
 .group-footer .en {
     transform: scale(1.2) rotate(-20deg);
     top: 8%;
     left: 35%;
 }
-
 .group-footer .pt {
     transform: scaleX(-0.7) scaleY(0.7) rotate(-145deg);
     top: 17%;
     left: -5%;
 }
-
 .group-footer .EN-en {
     top: 25%;
     left: 45%;
 }
-
 .group-footer .PT-pt {
     top: 53%;
     left: 20%;
 }
-
-.group-footer p {
+.group-footer .text {
     font-family: "Solitreo", cursive;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    top: 58%;
-    left: 20%;
+    top: 57%;
+    left: 57%;
+}
+
+/* CONTACT ME */
+.group-contact {
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+.group-contact div {
+    position: absolute;
+}
+.group-contact .flower {
+    transform: scale(0.9) rotate(-25deg);
+    top: 25%;
+    left: 30%;
+}
+.group-contact .nenufar-big {
+    position: absolute;
+    transform: rotate(-175deg) scale(0.9) scaleX(1.4);
+    top: -10%;
+    left: 30%;
+}
+.group-contact .title {
+    top: 22%;
+    left: 40%;
+    text-align: center;
+}
+.group-contact .artstation {
+    transform: rotate(160deg);
+    top: 60%;
+    left: 31%;
+}
+.group-contact .artstation-link {
+    top: 83%;
+    left: 35%;
+}
+.group-contact .linkedin {
+    transform: rotate(180deg);
+    top: 35%;
+    left: 10%;
+}
+.group-contact .linkedin-link {
+    top: 55%;
+    left: 17%;
+}
+.group-contact .github {
+    transform: rotate(200deg);
+    top: 0%;
+    left: 0%;
+}
+.group-contact .github-link {
+    top: 20%;
+    left: 13%;
+}
+.group-contact .youtube {
+    top: 50%;
+    left: 60%;
+}
+.group-contact .youtube-link {
+    top: 70%;
+    left: 70%;
 }

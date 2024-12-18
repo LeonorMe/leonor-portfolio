@@ -2,24 +2,35 @@
 @import url("styles/contact.css");
 @import url("styles/fixed.css");
 @import url("styles/fonts.css");
-@import url("styles/z-index.css");
-@import url("styles/success.css");
-@import url("styles/index.css");
 @import url("styles/groups.css");
+@import url("styles/index.css");
+@import url("styles/success.css");
+@import url("styles/z-index.css");
 
 @import url("styles/test_1.css");
 
 body {
     background-color: var(--background);
     color: var(--white);
-    padding: 5vh 20vw;
     font-family: "Inter", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .subtitle {
     font-family: "Crimson Text", serif;
     font-weight: 400;
     font-style: normal;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.5em;
+}
+.subtitle {
+    font-size: 1.7em;
 }
 
 a {
@@ -47,41 +58,3 @@ a:hover {
         opacity: 0.01;
     }
 }
-
-/*
-h1 {
-    font-size: 2em;
-}
-
-
-.nenufar-group {
-    display:flex;
-}
-
-
-.nenufar-group{
-    position: absolute;
-    top: -80px;
-    left: 0px;
-}
-
-.nenufar-group h1 {
-    position: relative;
-    top: 70px;
-    left: 60px;
-    word-wrap: normal;
-    max-width: 100px;
-}
-
-.nenufar-group .nenufar-big {
-    position: relative;
-    top: 50px;
-    left: 100px;
-}
-
-.nenufar-group .nenufar-small {
-    position: relative;
-    top: -200px;
-    left: 400px;
-}
-*/
