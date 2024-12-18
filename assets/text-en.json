@@ -1,0 +1,49 @@
+[
+    {
+        "page": "about",
+        "title": "Abstract",
+        "text": "I am an observant, curious, creative, 
+        communicative and active person.
+        <br>
+        My personal values ​​include peace and respect for nature. 
+        <br>
+        I enjoy exploring the world and creating my own 
+        ideas about it, therefore, my curriculum is 
+        varied and interdisciplinary.
+        <br>
+        I do projects where I can take advantage of my creativity 
+        and that keep me motivated to solve interesting 
+        problems."
+    },
+    {
+        "page": "about",
+        "title": "Languages",
+        "text": "Portuguese  Native <br>
+                English   C1<br>
+                Spanish   B2<br>
+                French    A1<br>
+                German    A1<br>"
+    },
+    {
+        "page": "about",
+        "title": "Skills",
+        "text": "Java : 300h
+                <br>Python : 200h
+                <br>C++ : 150h
+                <br>C# : 50h
+                <br>HTML+CSS+JS : 100h
+                <br>Arduino : 160h
+                <br>OutSystems : 120h
+                <br>Latex : 50h
+                <br><br><br>
+                <br>Blender : 500h
+                <br>Figma : 50h
+                <br>Photoshop : 50h
+                <br>Digital drawing : 100h
+                <br>SVG : 20h
+                <br>WaterColor : 30h
+                <br>Design : 150h
+                <br>Sewing : 100h
+                "
+    }
+]
