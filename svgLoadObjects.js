@@ -67,7 +67,7 @@ document.querySelectorAll(".PT-pt").forEach((e) => {
 // ------------------ GROUPS
 
 /* MAIN
-    <div class="group-main">
+    <div onclick="openAbout()" class="group-main">
         <div class="flower"></div>
         <div class="profile"></div>
         <div class="nenufar-big"></div>
@@ -84,7 +84,7 @@ document.querySelectorAll(".PT-pt").forEach((e) => {
         <div class="nenufar-small en"></div>
         <div class="EN-en"></div>
         <div class="PT-pt"></div>
-        <p>@LM <br> dec 2024</p>
+        <div class="text"><p>@LM <br><br> dec 2024</p></div>
     </div>
 */
 
@@ -102,4 +102,20 @@ document.querySelectorAll(".PT-pt").forEach((e) => {
         <div class="artstation-link"><a target="_blank" href="https://leonormedeiros.artstation.com/">Art Station</a></div>
         <div class="youtube-link"><a target="_blank" href="https://www.youtube.com/channel/UCfm2RQ1aN3jFYA5qJDPV7EQ">Youtube</a></div>
     </div>
+*/
+
+/* PROJECT GROUP
+<div class="group-project-group">
+    <div class="flower"></div>
+    <a class="nenufar-big" href="/project.html"></a>
+    <div class="nenufar-small proj1"></div>
+    <div class="nenufar-small proj2"></div>
+    <div class="nenufar-small proj3"></div>
+    <div class="nenufar-small proj4"></div>
+    <div class="title"><h2>Project Type</h2></div>
+    <div class="proj1-link"><a target="_blank" href="/project.html">Project1---</a></div>
+    <div class="proj2-link"><a target="_blank" href="/project.html">Project2---</a></div>
+    <div class="proj3-link"><a target="_blank" href="/project.html">Project3----</a></div>
+    <div class="proj4-link"><a target="_blank" href="/project.html">Project4---</a></div>
+</div>
 */

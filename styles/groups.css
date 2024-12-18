@@ -138,3 +138,82 @@
     top: 70%;
     left: 70%;
 }
+
+/* PROJECT GROUP */
+.group-project-group {
+    position: relative;
+    height: 200px;
+    width: 300px;
+
+    margin: 30px 0px;
+}
+
+.group-project-group div {
+    position: absolute;
+}
+
+.group-project-group .flower {
+    transform: scale(0.9) rotate(-25deg);
+    top: 25%;
+    left: 30%;
+}
+
+.group-project-group .nenufar-big {
+    position: absolute;
+    transform: rotate(-175deg) scale(0.9) scaleX(1.4);
+    top: -10%;
+    left: 30%;
+}
+
+.group-project-group .title {
+    top: 24%;
+    left: 38%;
+    text-align: center;
+}
+
+.group-project-group .proj1 {
+    transform: rotate(200deg);
+    top: 0%;
+    left: 0%;
+}
+
+.group-project-group .proj1-link {
+    top: 27%;
+    left: 4%;
+    text-align: center;
+}
+
+.group-project-group .proj2 {
+    transform: rotate(180deg);
+    top: 35%;
+    left: 10%;
+}
+
+.group-project-group .proj2-link {
+    top: 55%;
+    left: 13%;
+    text-align: center;
+}
+
+.group-project-group .proj3 {
+    transform: rotate(160deg);
+    top: 60%;
+    left: 31%;
+}
+
+.group-project-group .proj3-link {
+    top: 83%;
+    left: 34%;
+    text-align: center;
+}
+
+.group-project-group .proj4 {
+    top: 50%;
+    left: 60%;
+}
+
+.group-project-group .proj4-link {
+    top: 71%;
+    left: 65%;
+    text-align: center;
+}
