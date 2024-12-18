@@ -13,7 +13,7 @@
     z-index: 9;
 }
 
-.flower {
+.flower, .f {
     z-index: 8;
 }
 
@@ -21,7 +21,7 @@
     z-index: 7;
 }
 
-.top-nenufar, .nenufar-small {
+.top-nenufar, .nenufar-small, .proj-img {
     z-index: 6;
 }
 

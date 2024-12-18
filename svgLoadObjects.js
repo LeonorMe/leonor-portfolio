@@ -64,6 +64,21 @@ document.querySelectorAll(".PT-pt").forEach((e) => {
     e.innerHTML = svgPTpt;
 });
 
+// -------------------
+/*
+document.querySelectorAll(".proj-img").forEach((e) => {
+    e.innerHTML = `
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="img-circle">
+            <circle r="45" cx="50" cy="50" fill="var(--nenufar-small)" />
+            </clipPath>
+        </defs>
+        <image width="100" height="100" href="/assets/fish.svg" clip-path="url(#img-circle)" />
+    </svg>
+    `;
+}) */
+
 // ------------------ GROUPS
 
 /* MAIN
@@ -118,4 +133,17 @@ document.querySelectorAll(".PT-pt").forEach((e) => {
     <div class="proj3-link"><a target="_blank" href="/project.html">Project3----</a></div>
     <div class="proj4-link"><a target="_blank" href="/project.html">Project4---</a></div>
 </div>
+*/
+
+/* PROJECT
+
+    <div class="group-project">
+        <div class="f flower"></div>
+        <a class="nenufar-big" href="/project.html"></a>
+        <div class="nenufar-small"></div>
+        <div class="proj-img"></div>
+        <div class="title"><h2>Project <br><br> Name</h2></div>
+        <div class="proj-date"><p>MM <br><br> YYYY</p></div>
+    </div>
+
 */

@@ -34,7 +34,7 @@ h3 {
     font-size: 1.7em;
 }
 
-a {
+a, .proj-date {
     color: var(--white);
     font-family: "Solitreo", cursive;
     font-weight: 400;

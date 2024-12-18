@@ -18,9 +18,6 @@
     flex-wrap:wrap-reverse;
     gap: 10px 10px;
 }
-.index header div {
-    border: 2px solid rgba(255, 255, 255, 0);
-}
 
 .index header div:hover .flower {
     transform: scale(1.1);
@@ -28,11 +25,19 @@
 }
 
 .index section {
-    padding: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;
     gap: 10px 10px;
+}
+
+.index section .group-project-group {
+    margin: 30px 0px;
+}
+
+.index section .f:hover {
+    transform: scale(1.1);
+        transition: ease-in-out 0.5s;
 }

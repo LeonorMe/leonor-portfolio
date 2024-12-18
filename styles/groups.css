@@ -144,15 +144,13 @@
     position: relative;
     height: 200px;
     width: 300px;
-
-    margin: 30px 0px;
 }
 
 .group-project-group div {
     position: absolute;
 }
 
-.group-project-group .flower {
+.group-project-group .f {
     transform: scale(0.9) rotate(-25deg);
     top: 25%;
     left: 30%;
@@ -216,4 +214,55 @@
     top: 71%;
     left: 65%;
     text-align: center;
+}
+
+/* PROJECT */
+
+.group-project {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+}
+
+.group-project div {
+    position: absolute;
+}
+
+.group-project .f {
+    transform: scale(0.9) rotate(-25deg);
+    top: 10%;
+    left: 30%;
+}
+
+.group-project .nenufar-big {
+    position: absolute;
+    transform: rotate(60deg);
+    top:3%;
+}
+
+.group-project .nenufar-small {
+    top: 30%;
+    left: 55%;
+}
+
+.group-project .title {
+    top: 15%;
+    left: 15%;
+}
+
+.group-project .proj-date {
+    top: 36%;
+    left: 71%;
+    text-align: center;
+}
+
+.group-project .proj-img {
+    top: 50%;
+    left: 35%;
+}
+
+.group-project .proj-img image{
+    /* TODO */
+    background-size: cover;
 }
