@@ -177,7 +177,7 @@
 
 .group-project-group .proj1-link {
     top: 27%;
-    left: 4%;
+    left: 9%;
     text-align: center;
 }
 
@@ -212,7 +212,7 @@
 
 .group-project-group .proj4-link {
     top: 71%;
-    left: 65%;
+    left: 70%;
     text-align: center;
 }
 
@@ -222,7 +222,6 @@
     position: relative;
     height: 200px;
     width: 300px;
-    border: 2px solid white;
 }
 
 .group-project div {
@@ -252,8 +251,8 @@
 }
 
 .group-project .proj-date {
-    top: 36%;
-    left: 71%;
+    top: 37%;
+    left: 70%;
     text-align: center;
 }
 
