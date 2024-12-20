@@ -2,7 +2,7 @@ document.querySelectorAll(".water").forEach((water) => {
     water.innerHTML = svgWater;
 })
 
-document.querySelectorAll(".water-half").forEach((we) => {
+document.querySelectorAll(".water-half").forEach((e) => {
     e.innerHTML = svgWaterHalf;
 });
 

@@ -13,33 +13,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Solitreo&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>Contact me</h1>
-    
-    <form class="contact__form" action="success" method="post" netlify name="Contact Form">
-        <div class="contact__input-group">
-            <label for="name">Name*</label>
-            <input type="text" id="name" name="name" required>
+<body class="contact">
+    <div class="zones">
+
+        <div class="zone" id="zone-lake-left">
+            <div class="water-half"></div>
+            <nav>
+                <div onclick="goToIndex()" class="group-main">
+                    <div class="flower"></div>
+                    <div class="profile"></div>
+                    <div class="nenufar-big"></div>
+                    <div class="nenufar-small"></div>
+                    <h1>Leonor <br> Medeiros</h1>
+                    <p class="subtitle">Portfolio</p>
+                </div>
+                <div class="group-footer">
+                    <div class="nenufar-big base"></div>
+                    <div class="nenufar-big pt"></div>
+                    <div class="nenufar-small en"></div>
+                    <div class="EN-en"></div>
+                    <div class="PT-pt"></div>
+                    <div class="text"><p>@LM <br><br> dec 2024</p></div>
+                </div>
+            </nav>
         </div>
 
-        <div class="contact__input-group">
-            <label for="email">Email*</label>
-            <input type="text" id="email" name="email" required>
+        <div class="zone" >
+            <div id="zone-form">
+
+                <header>
+                    <div class="flower"></div>
+                    <h1>Contact</h1>
+                </header>
+                
+                <form class="contact__form" action="success" method="post" netlify name="Contact Form">
+                    <div class="contact__input-group">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="contact__input-group">
+                        <label for="email">Email*</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="contact__input-group">
+                        <label for="subject">Subject*</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="contact__input-group contact__form-message">
+                        <label for="message">Message*</label>
+                        <textarea type="text" id="message" name="message" required></textarea>
+                    </div>
+        
+                    <button type="submit">Submit</button>
+                    <div class="fish"></div> 
+                </form>
+            </div>
         </div>
 
-        <div class="contact__input-group">
-            <label for="subject">Subject*</label>
-            <input type="text" id="subject" name="subject" required>
-        </div>
-
-        <div class="contact__input-group contact__form-message">
-            <label for="message">Message*</label>
-            <textarea type="text" id="message" name="message" required></textarea>
-        </div>
-
-        <button type="submit">Submit</button>
-
-    </form>
+    </div>
 
     <!-- ### -->
 
@@ -54,5 +88,6 @@
 
     <script src="/waterAnimation.js"></script>
     
+    <script src="/changePage.js"></script>
 </body>
 </html>

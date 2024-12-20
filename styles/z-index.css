@@ -1,6 +1,6 @@
 /* cursor animation: z-index:14;*/
 
-.text, h1, h2, h3, h4, h5, h6, p, a {
+.text, h1, h2, h3, h4, h5, h6, p, a, form {
     position: relative;
     z-index: 12;
 }

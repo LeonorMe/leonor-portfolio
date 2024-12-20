@@ -1,9 +1,67 @@
-@import url("colors.css");
+.contact .zones {
+    /*display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));*
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 1em;
+    */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact .zone {
+    width: 49%;
+}
+
+/* Zone Lake */
+.contact #zone-lake-left {
+    margin-right: 1%;
+}
+
+.contact .water-half {
+    position: absolute;
+    transform: scaleX(-0.9);
+    left: -50px;
+}
+
+.contact nav {
+    padding: 5%;
+}
+
+.contact .group-footer, .group-main {
+    transform: scale(0.8);
+}
+
+/* Zone Form */
+.contact #zone-form {
+    padding: 10%;
+}
+
+.contact header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.contact header .flower {
+    transform: rotate(22deg) scale(0.8);
+    transition: ease-in-out 0.5s;
+}
+.contact header .flower:hover {
+    transform: scale(1);
+}
 
 .contact__form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.contact__form label {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
 }
 
 .contact__form-message {
@@ -14,6 +72,7 @@ textarea {
     width: 100%;
     resize: none;
     min-height: 10rem;
+    padding: 2%;
 }
 
 .contact__input-group {
@@ -28,13 +87,48 @@ textarea {
 }
 
 .contact__form button {
-    width: 20%;
-    padding: .35rem;
-}
-
-.contact__form button, input, textarea {
-    background-color: aquamarine;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    background-color: var(--detail);
     border: none;
     border-radius: 10px;
-    box-shadow: 8 8 5 #000000 inset;
+    box-shadow: 0 5px 5px 0 var(--shadow);
+
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+.contact__form button:hover {
+    transform: scale(0.9);
+    box-shadow: 0 5px 5px 0px var(--shadow) inset;
+}
+.contact__form button:active {
+    background-color: var(--detail-not);
+}
+
+.contact__form input, textarea {
+    background-color: var(--white);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px var(--shadow) inset;
+}
+
+.contact__form .fish {
+    transform: scale(0.8) scaleX(-1);
+    position: relative;
+    bottom: 150px;
+    left: 90px;
+    z-index: 13;
+}
+
+/* @Media */
+
+@media screen and (max-width:800px) {
+    .contact .zone {
+        width: 100%;
+    }
+    .contact .water-half {
+        top: -50%;
+    }
 }
