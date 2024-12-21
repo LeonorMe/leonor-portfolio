@@ -1,9 +1,4 @@
 .contact .zones {
-    /*display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));*
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-gap: 1em;
-    */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,7 +23,7 @@
     padding: 5%;
 }
 
-.contact .group-footer, .group-main {
+.contact .group-footer, .contact .group-main {
     transform: scale(0.8);
 }
 
