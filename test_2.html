@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="fish">fish</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="flower">fish</div>
 
+        <br><br>
+
+        <p class="PT"> Texto exemplo para teste</p>
+        <p class="EN"> Text exemple for testing</p>
+
+        <div class="group-footer">
+            <div class="nenufar-big base"></div>
+            <div class="nenufar-big pt"></div>
+            <div class="nenufar-small en"></div>
+            <div class="EN-en" onclick="clickEN()"></div>
+            <div class="PT-pt" onclick="clickPT()"></div>
+            <div class="text"><p>@LM <br><br> dec 2024</p></div>
+        </div>
+
+        <br><br>
+
+        <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+        <div id="result"></div>
+        <p>Click the button to see the counter increase.</p>
+        <p>Close the browser tab (or window), and try again, and the counter is
+            reset.</p>
+
+        <!--
     <div class="group-main">
         <div class="flower"></div>
         <div class="profile"></div>
@@ -18,15 +41,6 @@
         <h1>Leonor <br> Medeiros</h1>
         <p class="subtitle">Portfolio</p>
     </div>
-    
-    <div class="group-footer">
-                <div class="nenufar-big base"></div>
-                <div class="nenufar-big pt"></div>
-                <div class="nenufar-small en"></div>
-                <div class="EN-en"></div>
-                <div class="PT-pt"></div>
-                <div class="text"><p>@LM <br><br> dec 2024</p></div>
-            </div>
 
     <div class="group-contact">
         <div class="flower"></div>
@@ -41,7 +55,6 @@
         <div class="artstation-link"><a target="_blank" href="https://leonormedeiros.artstation.com/">Art Station</a></div>
         <div class="youtube-link"><a target="_blank" href="https://www.youtube.com/channel/UCfm2RQ1aN3jFYA5qJDPV7EQ">Youtube</a></div>
     </div>
-
     
     <div class="group-project-group">
         <div class="flower"></div>
@@ -65,19 +78,85 @@
         <div class="title"><h2>Project <br><br> Name</h2></div>
         <div class="proj-date"><p>MM <br><br> YYYY</p></div>
     </div>
+-->
+        <!-- ### -->
 
-    <!-- ### -->
+        <button class="color-mode">
+            <div class="color-mode-ball"></div>
+        </button>
 
-    <button class="color-mode">
-        <div class="color-mode-ball"></div>
-    </button>
+        <script src="/colorMode.js"></script>
 
-    <script src="/colorMode.js"></script>
-        
-    <script src="/svgOjects.js"></script>
-    <script src="/svgLoadObjects.js"></script>
+        <script src="/svgOjects.js"></script>
+        <script src="/svgLoadObjects.js"></script>
+
+        <script src="/waterAnimation.js"></script>
+
+        <script>
     
-    <script src="/waterAnimation.js"></script>
-    
-</body>
+        function clickCounter() {
+            if (typeof(Storage) !== "undefined") {
+                if (sessionStorage.clickcount) {
+                sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+                } else {
+                sessionStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+            } else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+
+        // 0 - EN, 1 - PT
+
+        function clickPT(){
+            if (sessionStorage.language) {
+                sessionStorage.language = 1;
+            } else {
+                sessionStorage.language = 0;
+            }
+            hideShowLang()
+        }
+
+        function clickEN(){
+            if (sessionStorage.language) {
+                sessionStorage.language = 0;
+            } else {
+                sessionStorage.language = 1;
+            }
+            hideShowLang()
+        }
+        let textPT = document.querySelectorAll(".PT");
+        textPT.forEach((text) => {
+            text.style.display = "none";
+        });
+
+        document.querySelector("body").onload = function(){hideShowLang()};
+
+        function hideShowLang(){
+            if(sessionStorage.language == 1){
+                let textPT = document.querySelectorAll(".PT");
+                textPT.forEach((text) => {
+                    text.style.display = "block";
+                });
+                let textEN = document.querySelectorAll(".EN");
+                textEN.forEach((text) => {
+                    text.style.display = "none";
+                });
+
+            }
+            else {
+                let textPT = document.querySelectorAll(".PT");
+                textPT.forEach((text) => {
+                    text.style.display = "none";
+                });
+                let textEN = document.querySelectorAll(".EN");
+                textEN.forEach((text) => {
+                    text.style.display = "block";
+                });
+            }
+        }
+    </script>
+
+    </body>
 </html>
