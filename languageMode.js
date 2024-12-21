@@ -1,4 +1,6 @@
- // 0 - EN, 1 - PT
+// TODO: chnage <html lang="en"> to "pt"
+
+// 0 - EN, 1 - PT
 
 function clickPT(){
     if (sessionStorage.language) {
