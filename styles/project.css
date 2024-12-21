@@ -74,9 +74,8 @@
 }
 
 .project img {
-    border: 1px white solid;
     border-radius: 15px;
-    width: 60%;
+    width: 50%;
     align-self: center;
 }
 
