@@ -1,16 +1,16 @@
 function goToIndex() {
     let a = window.location.href;
     //console.log(a);
-    let c = 'contact.html';
-    let p0 = 'project_0.html';
-    let p1 = 'project_1.html';
-    let p2 = 'project_2.html';
-    if(a.slice(-12) == c) {
+    let c = 'contact';
+    let p0 = 'project_0';
+    let p1 = 'project_1';
+    let p2 = 'project_2';
+    if(a.slice(-7) == c) {
         let s = a.replace(c, ''); //a.indexOf(b);
         //console.log(s);
         location.href = s;
     }else{
-        let s = a.replace(a.slice(-14), "");
+        let s = a.replace(a.slice(-9), "");
         location.href = s;
     }
 }
