@@ -1,5 +1,7 @@
 .index .water {
     position: absolute;
+    left: calc(100vw-(1655px/2));
+    justify-self: center;
 }
 
 .index header {
@@ -34,3 +36,12 @@
     transform: scale(1.1);
         transition: ease-in-out 0.5s;
 }
+
+/*
+image{
+    height: 100%;
+    width: 100%;
+    clip-path: circle();
+    object-fit: cover;
+}
+*/

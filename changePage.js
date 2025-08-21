@@ -6,7 +6,7 @@ function goToIndex() {
     let p1 = 'project_1';
     let p2 = 'project_2';
     if(a.slice(-7) == c) {
-        let s = a.replace(c, ''); //a.indexOf(b);
+        let s = a.replace(c, ""); //a.indexOf(b);
         //console.log(s);
         location.href = s;
     }else{
